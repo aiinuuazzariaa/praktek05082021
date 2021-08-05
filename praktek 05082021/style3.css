@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    width: 99,5%;
+    background-color: rgb(221, 186, 186);
+    padding: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    width: 20%;
+    background-color: rgb(255, 231, 188);
+    float: left;
+    height: 500px;
+}
+
+ul.vertical{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    background-color: rgb(255, 231, 188);
+}
+ul.vertical li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    text-align: left;
+}
+ul.vertical li a:hover{
+    background-color: rgb(255, 179, 255);
+    color: white;
+}
+
+div.content{
+    width: 80%;
+    background-color: rgb(180, 170, 141);
+    float: right;
+    height: 500px;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(255, 168, 255);
+}
